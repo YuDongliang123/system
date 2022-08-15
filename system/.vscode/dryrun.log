@@ -1,0 +1,11 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/ubuntu/system-1'
+cd si7006 && make && cd ..
+cd myspi && make && cd ..
+cd led && make && cd ..
+cd motor && make && cd ..
+cd bee && make && cd ..
+cd fan && make && cd ..
+cp drive/*.ko ~/nfs/rootfs
+make: Leaving directory '/home/ubuntu/system-1'
+ 

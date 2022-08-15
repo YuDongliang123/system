@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/ubuntu/linux-5.10.61/include",
+                "/home/ubuntu/linux-5.10.61/include/uapi",
+                "/home/ubuntu/linux-5.10.61/include/generated",
+                "/home/ubuntu/linux-5.10.61/arch/arm/include",
+                "/home/ubuntu/linux-5.10.61/arch/arm/include/uapi",
+                "/home/ubuntu/linux-5.10.61/arch/arm/include/generated/",
+                "/home/ubuntu/linux-5.10.61/arch/arm/include/generated/uapi"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
